@@ -1,0 +1,177 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+Pydantic/
+.Python
+*.egg-info/
+*.egg
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Trae IDE
+.trae/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+*.manifest
+
+# Pytest / test caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache
+coverage.xml
+*.cover
+.tox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+.~*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / packaging
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Distribution
+*.egg-info/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor backup
+*~
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Compiled object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Qt
+*.user
+*.user.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# PyQtGraph caches
+*.pgcache/
+
+# Numba cache
+__pycache__/
+*.nbi
+*.nbc
+.numba_cache/
+
+# Scientific data (large files)
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+*.csv
+!data/**/*.csv
+!data/**/*.h5
+
+# Image outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+!assets/**/*.png
+!assets/**/*.jpg
+
+# Session / debug files
+*.session
+*.pkl
+*.pickle
+
+# OS specific
+.directory
+*.lnk
+
+# Test artifacts
+test_output/
+test_results/
+.pytest_cache/
+
+# pyright
+pyrightconfig.json.bak
+
+# Agent rules backup
+agent.md.bak

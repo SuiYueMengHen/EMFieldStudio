@@ -1,0 +1,36 @@
+simulation:
+  wavelength: 5.32e-07
+  grid_size: 1024
+  physical_size: 2.0e-04
+  propagation_distance: 0.1
+  pad_factor: 2.0
+  model: fraunhofer
+
+aperture:
+  type: circle
+  size: 50.0
+  center_x: 0.0
+  center_y: 0.0
+  rotation: 0.0
+  aspect_ratio: 1.0
+  inner_ratio: 0.5
+  num_points: 5
+  num_slits: 5
+  slit_width: null
+  slit_separation: null
+
+display:
+  colormap: hot
+  log_scale: true
+  gamma: 1.0
+  auto_levels: true
+
+analysis:
+  cross_section_enabled: false
+  cross_section_angle: 0.0
+  cross_section_width: 5
+
+export:
+  dpi: 300
+  format: tiff
+  include_metadata: true
