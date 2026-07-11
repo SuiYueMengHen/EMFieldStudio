@@ -207,3 +207,11 @@ pyinstaller diffraction_lab/em_field_studio.spec
 ## 许可证
 
 本项目仅供学习和研究使用。
+
+## Project Status
+
+This repository is maintained as part of SuiYueMengHen's open-source project collection. Issues and suggestions are welcome.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
